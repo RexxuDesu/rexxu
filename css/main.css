@@ -1,0 +1,9 @@
+@import url("./header.css");
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --color00: green;
+}
