@@ -1,0 +1,19 @@
+.textEducMainA{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: heavy;
+    font-size: 25px;
+    color: white;
+}
+.textEducSubA{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: heavy;
+    font-size: 18px;
+    color: white;
+    padding-left: 9px;
+}
+.textEducSubB{
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    color: white;
+    padding-left: 9px;
+}

@@ -1,9 +1,31 @@
 @import url("./header.css");
-
+@import url("./body.css");
+@import url("./text.css");
+@import url("./image.css");
 * {
     margin: 0px;
 }
-
 :root {
-    --color00: green;
+    --color00: #234c6a;
+    --color01: #456882;
+    --color02: #1b3c53;
+    --color03: #1f5278;
+}
+.page-transition {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9999;
+  transform: translateY(0);
+  transition: transform 0.7s cubic-bezier(.2,.8,.2,1);
+  pointer-events: none;
+}
+.page-transition.reveal {
+  transform: translateY(100%);
+}
+.page-transition.cover {
+  transform: translateY(0);
 }

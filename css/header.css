@@ -1,3 +1,56 @@
 .navbar {
+    display: flex;
+    width: 100%;
+    height: 111px;
     background-color: var(--color00);
+}
+.navbarGr {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to bottom, var(--color00), #456882);
+}
+.navbarDiv0 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.navbarDiv1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarDiv2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbarButton {
+    height: 57px;
+    width: 223px;
+    background-color: var(--color02);
+    color: white;
+    font-size: 22px;
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+.navbarButton:hover {
+    background: white;
+    color: var(--color02);
+    transition-timing-function: ease-in;
+}
+.title {
+    font-size: 44px;
+    font-family: "Archivo Black", sans-serif;
+    color: white;
 }
